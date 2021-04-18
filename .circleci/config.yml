@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
-    node: cicleci/node@3.0.0
+  node: circleci/node@3.0.0
 workflows:
-    node-test:
-        jobs:
-            - node/text
+  node-tests:
+    jobs:
+      - node/text
